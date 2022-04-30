@@ -1,0 +1,215 @@
+
+.container{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+
+.mainHeader{
+    width: 12vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.nav li{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.nav a{
+    text-decoration: none;
+}
+.navbar{
+    padding: 20vh 5px;
+}
+
+.mainContent{
+    width: 88vw;
+    height: 100vh;
+    background-color: rgb(194, 191, 191);
+}
+
+.content{
+    background-color: rgb(219, 217, 189);
+    width: 50vw;
+    height: 50vh;
+    margin: 105px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.introSec{
+    margin: 50px 50px;
+}
+
+.introSec h3{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1px;
+    
+}
+.introSec p{
+    font-size: 25px;
+}
+.introSec .para{
+    font-size: 15px;
+}
+
+.imageSet img{
+    height: 50vh;
+}
+
+.introSec .btn{
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.introSec .btn:hover{
+    background-color: rgb(194, 191, 191);
+}
+
+.card{
+    width: 80vw;
+    height: 90vh;
+    background-color: rgb(194, 191, 191);
+    margin: 5vh auto;
+}
+
+.card h2{
+    text-align: center;
+}
+
+.cardItem{
+    margin: 80px auto;
+    width: 60vw;
+    height: 70vh;
+}
+.cardItem .name{
+    width: 55vw;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    /* margin: 20px 0px; */
+    margin-bottom: 20px;
+}
+.cardItem .gmail{
+    width: 55vw;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+/* .cardItem label{
+    margin-top: 8px;
+} */
+
+.cardItem TEXTarea{
+    height: 15vh;
+    width: 56vw;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.cardItem .btn{
+    margin-top: 3vh;
+    margin-left: 25vw;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+.cardItem .btn:hover{
+    background-color: rgb(194, 191, 191);
+}
+
+.mainSection{
+    background-color: rgb(194, 191, 191);
+    height: 90vh;
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 7vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+.mainSection h1{
+    text-align: center;
+    font-weight: bold;
+    margin-right: 8vw;
+    text-decoration: underline;
+}
+.firstSec{
+    background-color: white;
+    height: 25vh;
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstSec img{
+    height: 25vh;
+    margin-right: 5vw;
+}
+
+.secondSec{
+    height: 25vh;
+    width: 70vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.thirdSec{
+    height: 25vh;
+    width: 70vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.learnSkill{
+    margin-left: 5vw;
+}
+.learningSkill{
+    margin-left: 5vw;
+}
+.otherSkill{
+    margin-left: 5vw;
+}
+.secondSec img{
+    height: 25vh;
+    margin-right: 5vw;
+}
+.thirdSec img{
+    height: 25vh;
+    margin-right: 5vw;
+}
+
+.aboutSec{
+    background-color: rgb(194, 191, 191);
+    height: 95vh;
+    width: 85vw;
+    padding-top: 5vh;
+}
+.aboutSec .partSec{
+    margin: 15vh 10vw;
+    /* width: 85vw; */
+    font-size: 20px;
+
+}
+.aboutSec h1{
+    text-align: center;
+    text-decoration: underline;
+    margin-right: 8vw;
+
+}
